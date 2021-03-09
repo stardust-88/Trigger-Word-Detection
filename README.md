@@ -1,4 +1,3 @@
 # Trigger-Word-Detection
-A deep learning model employing sequence models for detecting a trigger word in an audio.
-
-It required audio pre-processing and synthesis to create train/dev sets, and takes an audio and produces a “chiming” sound whenever it hears the word “Activate” in the audio.
+Performed audio pre-processing and synthesis and analyzed audio spectrograms to create train/dev sets.
+Developed a deep learning model, employing Gated Recurrent Units(GRUs) and unidirectional RNNs, which produces a sound whenever it hears the word “activate” in the audio.
